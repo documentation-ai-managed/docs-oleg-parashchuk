@@ -1,0 +1,102 @@
+---
+title: Introduction to Oleg Parashchuk Documentation
+description: Welcome to Oleg Parashchuk's documentation space, a platform for organizing and managing your project documentation efficiently.
+---
+
+## Overview
+
+Welcome to Oleg Parashchuk's documentation space. You can organize, manage, and share all your project documentation here with ease. This platform provides powerful tools to create structured docs, collaborate with teams, and keep everything up to date.
+
+Use it to document APIs, user guides, internal wikis, or any project knowledge base. Start by creating pages, adding components, and customizing with your brand.
+
+<Callout kind="info">
+  Primary brand color: <code>#3B82F6</code>. Apply it consistently for buttons, links, and accents.
+</Callout>
+
+## Key Features
+
+Discover the core capabilities that make this documentation space efficient.
+
+<Columns cols={3}>
+  <Card title="Rich Components" icon="components" href="#components">
+    Embed interactive elements like tabs, steps, and code groups directly in your pages.
+  </Card>
+  <Card title="Version Control" icon="git-branch" href="#version-control">
+    Track changes, revert edits, and maintain history for every page.
+  </Card>
+  <Card title="Search & Navigation" icon="search" href="#navigation">
+    Full-text search and intuitive sidebar help you find content instantly.
+  </Card>
+</Columns>
+
+## Quick Start
+
+Get up and running in minutes.
+
+<Steps>
+  <Step title="Create Your Space" icon="plus">
+    Sign up and initialize your documentation workspace.
+  </Step>
+  <Step title="Add Your First Page" icon="file-plus">
+    Click "New Page" and start writing with Markdown and MDX components.
+  </Step>
+  <Step title="Customize Branding" icon="palette">
+    Set your brand color to <code>#3B82F6</code> in settings.
+  </Step>
+  <Step title="Publish & Share" icon="share-2">
+    Make pages public or invite collaborators.
+  </Step>
+</Steps>
+
+## Brand Color Guidelines
+
+Maintain consistency with the primary brand color <code>#3B82F6</code> (blue shade).
+
+```css
+:root {
+  --brand-primary: #3B82F6;
+  --brand-primary-hover: #2563EB;
+}
+
+.button {
+  background-color: var(--brand-primary);
+  color: white;
+}
+```
+
+<Callout kind="tip">
+  Use this color for primary actions. Avoid overuse on large areas to maintain readability.
+</Callout>
+
+## Quick Navigation
+
+Jump to essential sections.
+
+<Tabs>
+  <Tab title="Guides" icon="book-open">
+    Explore tutorials and best practices.
+    
+    <Card title="Quickstart" icon="zap" href="/quickstart">
+      Set up in 5 minutes.
+    </Card>
+  </Tab>
+  <Tab title="API Reference" icon="code">
+    Integrate programmatically.
+    
+    ```javascript
+    const docsClient = new DocsClient({ apiKey: 'YOUR_API_KEY' });
+    const pages = await docsClient.pages.list();
+    ```
+  </Tab>
+  <Tab title="Support" icon="help-circle">
+    Get help when needed.
+    
+    <Card title="Changelog" icon="git-commit" href="/changelog">
+      Latest updates.
+    </Card>
+  </Tab>
+</Tabs>
+
+## Next Steps
+
+Ready to dive deeper? Check the [Quickstart](/quickstart) guide or explore [authentication](/authentication) for secure access. Your documentation space awaits customization.

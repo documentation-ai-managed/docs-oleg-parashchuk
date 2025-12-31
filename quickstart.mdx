@@ -1,0 +1,121 @@
+---
+title: Getting Started
+description: Set up your account and create your first documentation space to begin organizing projects quickly.
+---
+
+## Prerequisites
+
+Before you begin, ensure you have:
+
+- A modern web browser like Chrome or Firefox
+- An email address for account verification
+- Access to `https://dashboard.example.com` (the main dashboard URL)
+
+<Callout kind="info">
+  No credit card or payment information is required to get started. You receive a free tier with unlimited documentation spaces.
+</Callout>
+
+## Create Your Account
+
+Follow these steps to register and access the dashboard.
+
+<Steps>
+  <Step title="Visit the Dashboard" icon="globe">
+    Open your browser and navigate to `https://dashboard.example.com`.
+  </Step>
+  <Step title="Sign Up" icon="user-plus">
+    Click the <kbd>Sign Up</kbd> button. Choose email registration or sign in with Google.
+  </Step>
+  <Step title="Verify Email" icon="mail">
+    Check your inbox for a verification email and click the link inside.
+  </Step>
+  <Step title="Complete Profile" icon="edit-3">
+    Enter your name and preferred workspace name, then submit.
+  </Step>
+</Steps>
+
+<Callout kind="tip">
+  Enable two-factor authentication during setup for added security.
+</Callout>
+
+## Create Your First Documentation Space
+
+Once logged in, create a space to organize your projects.
+
+<Steps>
+  <Step title="Access Dashboard" icon="home">
+    From the dashboard, select <kbd>New Space</kbd>.
+  </Step>
+  <Step title="Name Your Space" icon="edit">
+    Enter a name like "My Project Docs" and add a brief description.
+  </Step>
+  <Step title="Customize Settings" icon="settings">
+    Choose visibility (public or private) and set a brand color like `#3B82F6`.
+  </Step>
+  <Step title="Launch Space" icon="rocket">
+    Click <kbd>Create Space</kbd> to open your new documentation area.
+  </Step>
+</Steps>
+
+## Add Your First Document
+
+Spaces support MDX documents for rich, interactive content.
+
+<Tabs>
+  <Tab title="Quick Editor" icon="edit">
+    Click <kbd>New Document</kbd> in the sidebar. Use the visual editor to add headings, lists, and components.
+  </Tab>
+  <Tab title="MDX Code" icon="code">
+    Select <kbd>New MDX File</kbd>. Paste code directly into the editor.
+
+    <CodeGroup tabs="MDX">
+    ````mdx
+    ---
+    title: My First Doc
+    description: Hello world example
+    ---
+
+    ## Welcome
+
+    This is your first document using `{`title`}` frontmatter.
+    ````
+
+    ````mdx
+    <Callout kind="success">
+      Document saved automatically!
+    </Callout>
+    ````
+    </CodeGroup>
+  </Tab>
+</Tabs>
+
+## Interface Tour
+
+Explore the key areas of your documentation space.
+
+<Columns cols={3}>
+  <Card title="Sidebar Navigation" icon="menu" href="#sidebar">
+    Access spaces, documents, and settings. Use search for quick navigation.
+  </Card>
+  <Card title="Editor Panel" icon="edit-3" href="#editor">
+    Split view with code and live preview. Supports real-time collaboration.
+  </Card>
+  <Card title="Publish Menu" icon="upload-cloud" href="#publish">
+    Deploy docs to custom domains or share via links.
+  </Card>
+</Columns>
+
+## Next Steps
+
+<Columns cols={2}>
+  <Card title="Learn MDX Components" icon="book-open" href="/introduction">
+    Dive into advanced components like Steps and Tabs.
+  </Card>
+  <Card title="Customize Your Space" icon="settings" href="/configuration">
+    Explore themes, integrations, and permissions.
+  </Card>
+</Columns>
+
+<Callout kind="success">
+  Congratulations! You've set up Oleg Parashchuk and created your first space. Start adding more documents to organize your projects.
+</Callout>
